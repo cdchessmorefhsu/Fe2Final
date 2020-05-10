@@ -1,0 +1,547 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Penny Juice - Order</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <link href="https://fonts.googleapis.com/css?family=Rubik:400,700|Crimson+Text:400,400i" rel="stylesheet">
+  <link rel="stylesheet" href="fonts/icomoon/style.css">
+
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/magnific-popup.css">
+  <link rel="stylesheet" href="css/jquery-ui.css">
+  <link rel="stylesheet" href="css/owl.carousel.min.css">
+  <link rel="stylesheet" href="css/owl.theme.default.min.css">
+
+
+  <link rel="stylesheet" href="css/aos.css">
+
+  <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+
+  <div class="site-wrap">
+
+
+    <div class="site-navbar py-2">
+
+
+      <div class="container">
+        <div class="d-flex align-items-center justify-content-between">
+          <div class="logo">
+            <div class="site-logo">
+              <a href="index.html" class="js-logo-clone">Penny Juice</a>
+            </div>
+          </div>
+          <div class="main-nav d-none d-lg-block">
+            <nav class="site-navigation text-right text-md-center" role="navigation">
+              <ul class="site-menu js-clone-nav d-none d-lg-block">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="shop.html">Flavors</a></li>
+                <li class="active"><a href="cart.html">Order</a></li>
+              </ul>
+            </nav>
+          </div>
+          <div >
+            <span id="headership">FREE NATIONWIDE SHIPPING  563-386-1999<br>
+              LEADER IN CHILDCARE JUICE!</span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="bg-light py-3">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12 mb-0">
+            <a href="index.html">Home</a> <span class="mx-2 mb-0">/</span> 
+            <strong class="text-black">Order</strong>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="site-section">
+      <div class="container">
+        <div class="row mb-5">
+          <form class="col-md-12" method="post">
+            <div class="site-blocks-table">
+              <table class="table table-bordered">
+                <thead>
+                  <tr>
+                    <th class="product-name">Flavor</th>
+                    <th class="product-quantity">Cases</th>
+                    <th class="product-quantity">Bottles*</th>
+                    <th class="product-price">Cases Cost</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>Apple</td>
+                    <td>
+                      <div class="input-group mb-3">
+                      <div class="input-group-prepend">
+                        <button class="AP btn btn-outline-primary js-btn-minus" type="button">&minus;</button>
+                      </div>
+                      <input type="text" class="update form-control text-center" value="0" placeholder=""
+                        aria-label="Example text with button addon" aria-describedby="button-addon1">
+                      <div class="input-group-append">
+                        <button class="AP btn btn-outline-primary js-btn-plus" type="button">&plus;</button>
+                      </div>
+                    </td>
+                    <td>  
+                      <div class="input-group mb-3">
+                      <div class="input-group-prepend">
+                        <button class="AP btn btn-outline-primary js-btn-minus" type="button">&minus;</button>
+                      </div>
+                      <input type="text" class="update form-control text-center" value="0" placeholder=""
+                        aria-label="Example text with button addon" aria-describedby="button-addon1">
+                      <div class="input-group-append">
+                        <button class="AP bottles btn btn-outline-primary js-btn-plus" type="button">&plus;</button>
+                      </div>
+                    </td>
+                    <td id="APCost">$0.00</td>
+                  </tr>
+                  <tr>
+                    <td>Berry</td>
+                    <td>
+                      <div class="input-group mb-3">
+                      <div class="input-group-prepend">
+                        <button class="BE btn btn-outline-primary js-btn-minus" type="button">&minus;</button>
+                      </div>
+                      <input type="text" class="update form-control text-center" value="0" placeholder=""
+                        aria-label="Example text with button addon" aria-describedby="button-addon1">
+                      <div class="input-group-append">
+                        <button class="BE btn btn-outline-primary js-btn-plus" type="button">&plus;</button>
+                      </div>
+                    </td>
+                    <td>  
+                      <div class="input-group mb-3">
+                      <div class="input-group-prepend">
+                        <button class="BE btn btn-outline-primary js-btn-minus" type="button">&minus;</button>
+                      </div>
+                      <input type="text" class="update form-control text-center" value="0" placeholder=""
+                        aria-label="Example text with button addon" aria-describedby="button-addon1">
+                      <div class="input-group-append">
+                        <button class="BE bottles btn btn-outline-primary js-btn-plus" type="button">&plus;</button>
+                      </div>
+                    </td>
+                    <td id="BECost">$0.00</td>
+                  </tr>
+                  <tr>
+                    <td>Blue Raspberry</td>
+                    <td>
+                      <div class="input-group mb-3">
+                      <div class="input-group-prepend">
+                        <button class="BR btn btn-outline-primary js-btn-minus" type="button">&minus;</button>
+                      </div>
+                      <input type="text" class="update form-control text-center" value="0" placeholder=""
+                        aria-label="Example text with button addon" aria-describedby="button-addon1">
+                      <div class="input-group-append">
+                        <button class="BR btn btn-outline-primary js-btn-plus" type="button">&plus;</button>
+                      </div>
+                    </td>
+                    <td>  
+                      <div class="input-group mb-3">
+                      <div class="input-group-prepend">
+                        <button class="BR btn btn-outline-primary js-btn-minus" type="button">&minus;</button>
+                      </div>
+                      <input type="text" class="update form-control text-center" value="0" placeholder=""
+                        aria-label="Example text with button addon" aria-describedby="button-addon1">
+                      <div class="input-group-append">
+                        <button class="BR bottles btn btn-outline-primary js-btn-plus" type="button">&plus;</button>
+                      </div>
+                    </td>
+                    <td id="BRCost">$0.00</td>
+                  </tr>
+                  <tr>
+                    <td>Cherry</td>
+                    <td>
+                      <div class="input-group mb-3">
+                      <div class="input-group-prepend">
+                        <button class="CH btn btn-outline-primary js-btn-minus" type="button">&minus;</button>
+                      </div>
+                      <input type="text" class="update form-control text-center" value="0" placeholder=""
+                        aria-label="Example text with button addon" aria-describedby="button-addon1">
+                      <div class="input-group-append">
+                        <button class="CH btn btn-outline-primary js-btn-plus" type="button">&plus;</button>
+                      </div>
+                    </td>
+                    <td>  
+                      <div class="input-group mb-3">
+                      <div class="input-group-prepend">
+                        <button class="CH btn btn-outline-primary js-btn-minus" type="button">&minus;</button>
+                      </div>
+                      <input type="text" class="update form-control text-center" value="0" placeholder=""
+                        aria-label="Example text with button addon" aria-describedby="button-addon1">
+                      <div class="input-group-append">
+                        <button class="CH bottles btn btn-outline-primary js-btn-plus" type="button">&plus;</button>
+                      </div>
+                    </td>
+                    <td id="CHCost">$0.00</td>
+                  </tr>
+                  <tr>
+                    <td>Citrus Punch</td>
+                    <td>
+                      <div class="input-group mb-3">
+                      <div class="input-group-prepend">
+                        <button class="CI btn btn-outline-primary js-btn-minus" type="button">&minus;</button>
+                      </div>
+                      <input type="text" class="update form-control text-center" value="0" placeholder=""
+                        aria-label="Example text with button addon" aria-describedby="button-addon1">
+                      <div class="input-group-append">
+                        <button class="CI btn btn-outline-primary js-btn-plus" type="button">&plus;</button>
+                      </div>
+                    </td>
+                    <td>  
+                      <div class="input-group mb-3">
+                      <div class="input-group-prepend">
+                        <button class="CI btn btn-outline-primary js-btn-minus" type="button">&minus;</button>
+                      </div>
+                      <input type="text" class="update form-control text-center" value="0" placeholder=""
+                        aria-label="Example text with button addon" aria-describedby="button-addon1">
+                      <div class="input-group-append">
+                        <button class="CI bottles btn btn-outline-primary js-btn-plus" type="button">&plus;</button>
+                      </div>
+                    </td>
+                    <td id="CICost">$0.00</td>
+                  </tr>
+                  <tr>
+                    <td>Cran-Apple</td>
+                    <td>
+                      <div class="input-group mb-3">
+                      <div class="input-group-prepend">
+                        <button class="CA btn btn-outline-primary js-btn-minus" type="button">&minus;</button>
+                      </div>
+                      <input type="text" class="update form-control text-center" value="0" placeholder=""
+                        aria-label="Example text with button addon" aria-describedby="button-addon1">
+                      <div class="input-group-append">
+                        <button class="CA btn btn-outline-primary js-btn-plus" type="button">&plus;</button>
+                      </div>
+                    </td>
+                    <td>  
+                      <div class="input-group mb-3">
+                      <div class="input-group-prepend">
+                        <button class="CA btn btn-outline-primary js-btn-minus" type="button">&minus;</button>
+                      </div>
+                      <input type="text" class="update form-control text-center" value="0" placeholder=""
+                        aria-label="Example text with button addon" aria-describedby="button-addon1">
+                      <div class="input-group-append">
+                        <button class="CA bottles btn btn-outline-primary js-btn-plus" type="button">&plus;</button>
+                      </div>
+                    </td>
+                    <td id="CACost">$0.00</td>
+                  </tr>
+                  <tr>
+                    <td>Fruit Punch</td>
+                    <td>
+                      <div class="input-group mb-3">
+                      <div class="input-group-prepend">
+                        <button class="FP btn btn-outline-primary js-btn-minus" type="button">&minus;</button>
+                      </div>
+                      <input type="text" class="update form-control text-center" value="0" placeholder=""
+                        aria-label="Example text with button addon" aria-describedby="button-addon1">
+                      <div class="input-group-append">
+                        <button class="FP btn btn-outline-primary js-btn-plus" type="button">&plus;</button>
+                      </div>
+                    </td>
+                    <td>  
+                      <div class="input-group mb-3">
+                      <div class="input-group-prepend">
+                        <button class="FP btn btn-outline-primary js-btn-minus" type="button">&minus;</button>
+                      </div>
+                      <input type="text" class="update form-control text-center" value="0" placeholder=""
+                        aria-label="Example text with button addon" aria-describedby="button-addon1">
+                      <div class="input-group-append">
+                        <button class="FP bottles btn btn-outline-primary js-btn-plus" type="button">&plus;</button>
+                      </div>
+                    </td>
+                    <td id="FPCost">$0.00</td>
+                  </tr>
+                  <tr>
+                    <td>Green Watermelon</td>
+                    <td>
+                      <div class="input-group mb-3">
+                      <div class="input-group-prepend">
+                        <button class="GW btn btn-outline-primary js-btn-minus" type="button">&minus;</button>
+                      </div>
+                      <input type="text" class="update form-control text-center" value="0" placeholder=""
+                        aria-label="Example text with button addon" aria-describedby="button-addon1">
+                      <div class="input-group-append">
+                        <button class="GW btn btn-outline-primary js-btn-plus" type="button">&plus;</button>
+                      </div>
+                    </td>
+                    <td>  
+                      <div class="input-group mb-3">
+                      <div class="input-group-prepend">
+                        <button class="GW btn btn-outline-primary js-btn-minus" type="button">&minus;</button>
+                      </div>
+                      <input type="text" class="update form-control text-center" value="0" placeholder=""
+                        aria-label="Example text with button addon" aria-describedby="button-addon1">
+                      <div class="input-group-append">
+                        <button class="GW bottles btn btn-outline-primary js-btn-plus" type="button">&plus;</button>
+                      </div>
+                    </td>
+                    <td id="GWCost">$0.00</td>
+                  </tr>
+                  <tr>
+                    <td>Orange Pineapple</td>
+                    <td>
+                      <div class="input-group mb-3">
+                      <div class="input-group-prepend">
+                        <button class="OP btn btn-outline-primary js-btn-minus" type="button">&minus;</button>
+                      </div>
+                      <input type="text" class="update form-control text-center" value="0" placeholder=""
+                        aria-label="Example text with button addon" aria-describedby="button-addon1">
+                      <div class="input-group-append">
+                        <button class="OP btn btn-outline-primary js-btn-plus" type="button">&plus;</button>
+                      </div>
+                    </td>
+                    <td>  
+                      <div class="input-group mb-3">
+                      <div class="input-group-prepend">
+                        <button class="OP btn btn-outline-primary js-btn-minus" type="button">&minus;</button>
+                      </div>
+                      <input type="text" class="update form-control text-center" value="0" placeholder=""
+                        aria-label="Example text with button addon" aria-describedby="button-addon1">
+                      <div class="input-group-append">
+                        <button class="OP bottles btn btn-outline-primary js-btn-plus" type="button">&plus;</button>
+                      </div>
+                    </td>
+                    <td id="OPCost">$0.00</td>
+                  </tr>
+                  <tr>
+                    <td>Orange Raspberry</td>
+                    <td>
+                      <div class="input-group mb-3">
+                      <div class="input-group-prepend">
+                        <button class="OR btn btn-outline-primary js-btn-minus" type="button">&minus;</button>
+                      </div>
+                      <input type="text" class="update form-control text-center" value="0" placeholder=""
+                        aria-label="Example text with button addon" aria-describedby="button-addon1">
+                      <div class="input-group-append">
+                        <button class="OR btn btn-outline-primary js-btn-plus" type="button">&plus;</button>
+                      </div>
+                    </td>
+                    <td>  
+                      <div class="input-group mb-3">
+                      <div class="input-group-prepend">
+                        <button class="OR btn btn-outline-primary js-btn-minus" type="button">&minus;</button>
+                      </div>
+                      <input type="text" class="update form-control text-center" value="0" placeholder=""
+                        aria-label="Example text with button addon" aria-describedby="button-addon1">
+                      <div class="input-group-append">
+                        <button class="OR bottles btn btn-outline-primary js-btn-plus" type="button">&plus;</button>
+                      </div>
+                    </td>
+                    <td id="ORCost">$0.00</td>
+                  </tr>
+                  <tr>
+                    <td>Peach Mango</td>
+                    <td>
+                      <div class="input-group mb-3">
+                      <div class="input-group-prepend">
+                        <button class="PM btn btn-outline-primary js-btn-minus" type="button">&minus;</button>
+                      </div>
+                      <input type="text" class="update form-control text-center" value="0" placeholder=""
+                        aria-label="Example text with button addon" aria-describedby="button-addon1">
+                      <div class="input-group-append">
+                        <button class="PM btn btn-outline-primary js-btn-plus" type="button">&plus;</button>
+                      </div>
+                    </td>
+                    <td>  
+                      <div class="input-group mb-3">
+                      <div class="input-group-prepend">
+                        <button class="PM btn btn-outline-primary js-btn-minus" type="button">&minus;</button>
+                      </div>
+                      <input type="text" class="update form-control text-center" value="0" placeholder=""
+                        aria-label="Example text with button addon" aria-describedby="button-addon1">
+                      <div class="input-group-append">
+                        <button class="PM bottles btn btn-outline-primary js-btn-plus" type="button">&plus;</button>
+                      </div>
+                    </td>
+                    <td id="PMCost">$0.00</td>
+                  </tr>
+                  <tr>
+                    <td>Strawberry Banana</td>
+                    <td>
+                      <div class="input-group mb-3">
+                      <div class="input-group-prepend">
+                        <button class="SB btn btn-outline-primary js-btn-minus" type="button">&minus;</button>
+                      </div>
+                      <input type="text" class="update form-control text-center" value="0" placeholder=""
+                        aria-label="Example text with button addon" aria-describedby="button-addon1">
+                      <div class="input-group-append">
+                        <button class="SB btn btn-outline-primary js-btn-plus" type="button">&plus;</button>
+                      </div>
+                    </td>
+                    <td>  
+                      <div class="input-group mb-3">
+                      <div class="input-group-prepend">
+                        <button class="SB btn btn-outline-primary js-btn-minus" type="button">&minus;</button>
+                      </div>
+                      <input type="text" class="update form-control text-center" value="0" placeholder=""
+                        aria-label="Example text with button addon" aria-describedby="button-addon1">
+                      <div class="input-group-append">
+                        <button class="SB bottles btn btn-outline-primary js-btn-plus" type="button">&plus;</button>
+                      </div>
+                    </td>
+                    <td id="SBCost">$0.00</td>
+                  </tr>
+                  <tr>
+                    <td>Strawberry Kiwi</td>
+                    <td>
+                      <div class="input-group mb-3">
+                      <div class="input-group-prepend">
+                        <button class="SK btn btn-outline-primary js-btn-minus" type="button">&minus;</button>
+                      </div>
+                      <input type="text" class="update form-control text-center" value="0" placeholder=""
+                        aria-label="Example text with button addon" aria-describedby="button-addon1">
+                      <div class="input-group-append">
+                        <button class="SK btn btn-outline-primary js-btn-plus" type="button">&plus;</button>
+                      </div>
+                    </td>
+                    <td>  
+                      <div class="input-group mb-3">
+                      <div class="input-group-prepend">
+                        <button class="SK btn btn-outline-primary js-btn-minus" type="button">&minus;</button>
+                      </div>
+                      <input type="text" class="update form-control text-center" value="0" placeholder=""
+                        aria-label="Example text with button addon" aria-describedby="button-addon1">
+                      <div class="input-group-append">
+                        <button class="SK bottles btn btn-outline-primary js-btn-plus" type="button">&plus;</button>
+                      </div>
+                    </td>
+                    <td id="SKCost">$0.00</td>
+                  </tr>
+                  <tr>
+                    <td>Tangerine</td>
+                    <td>
+                      <div class="input-group mb-3">
+                      <div class="input-group-prepend">
+                        <button class="TN btn btn-outline-primary js-btn-minus" type="button">&minus;</button>
+                      </div>
+                      <input type="text" class="update form-control text-center" value="0" placeholder=""
+                        aria-label="Example text with button addon" aria-describedby="button-addon1">
+                      <div class="input-group-append">
+                        <button class="TN btn btn-outline-primary js-btn-plus" type="button">&plus;</button>
+                      </div>
+                    </td>
+                    <td>  
+                      <div class="input-group mb-3">
+                      <div class="input-group-prepend">
+                        <button class="TN btn btn-outline-primary js-btn-minus" type="button">&minus;</button>
+                      </div>
+                      <input type="text" class="update form-control text-center" value="0" placeholder=""
+                        aria-label="Example text with button addon" aria-describedby="button-addon1">
+                      <div class="input-group-append">
+                        <button class="TN bottles btn btn-outline-primary js-btn-plus" type="button">&plus;</button>
+                      </div>
+                    </td>
+                    <td id="TNCost">$0.00</td>
+                  </tr>
+                  <tr>
+                    <td>White Grape</td>
+                    <td>
+                      <div class="input-group mb-3">
+                      <div class="input-group-prepend">
+                        <button class="WG btn btn-outline-primary js-btn-minus" type="button">&minus;</button>
+                      </div>
+                      <input type="text" class="update form-control text-center" value="0" placeholder=""
+                        aria-label="Example text with button addon" aria-describedby="button-addon1">
+                      <div class="input-group-append">
+                        <button class="WG btn btn-outline-primary js-btn-plus" type="button">&plus;</button>
+                      </div>
+                    </td>
+                    <td>  
+                      <div class="input-group mb-3">
+                      <div class="input-group-prepend">
+                        <button class="WG btn btn-outline-primary js-btn-minus" type="button">&minus;</button>
+                      </div>
+                      <input type="text" class="update form-control text-center" value="0" placeholder=""
+                        aria-label="Example text with button addon" aria-describedby="button-addon1">
+                      <div class="input-group-append">
+                        <button class="WG bottles btn btn-outline-primary js-btn-plus" type="button">&plus;</button>
+                      </div>
+                    </td>
+                    <td id="WGCost">$0.00</td>
+                  </tr>
+                  <tr>
+                    <td>Totals</td>
+                    <td id="caseCount">0</td>
+                    <td id="bottleCount">0</td>
+                    <td id="costTotal">$0.00</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </form>
+          <p style="font-style:italic; font-weight:lighter;">*Bottles must be ordered in quantities of 6<br/>
+             6 bottles = 1 case = $89.00<br/>
+            Bottle counts not in increments of 6 are not added to order total.</p>
+        </div>
+      </div>
+    </div>
+    <footer class="site-footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6 col-lg-3 mb-4 mb-lg-0">
+
+            <div class="block-7">
+              <h3 class="footer-heading mb-4">About Us</h3>
+              <p>We provide 100% blended fruit juice concentrates that are specially made for kids and meet all the requirements of the FDA with regard to subsidy and nutrition.</p>
+            </div>
+
+          </div>
+          <div class="col-lg-3 mx-auto mb-5 mb-lg-0">
+            
+          </div>
+
+          <div class="col-md-6 col-lg-3">
+            <div class="block-5 mb-5">
+              <h3 class="footer-heading mb-4">Contact Us</h3>
+              <ul class="list-unstyled">
+                <li class="address">915 40th Ave Bettendorf, IA 52722</li>
+                <li class="phone"><a href="tel://5633861999">563-386-1999</a></li>
+                <li class="fax"><a href="fax://5633866200">563-386-6200</a></li>
+                <li class="email">pennyjuice@hotmail.com</li>
+              </ul>
+            </div>
+
+
+          </div>
+        </div>
+        <div class="row pt-5 mt-5 text-center">
+          <div class="col-md-12">
+            <p>
+              <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+              Copyright &copy;
+              <script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made
+              with <i class="icon-heart" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank"
+                class="text-primary">Colorlib</a>
+              <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+            </p>
+          </div>
+
+        </div>
+      </div>
+    </footer>
+  </div>
+
+  <script src="js/jquery-3.3.1.min.js"></script>
+  <script src="js/jquery-ui.js"></script>
+  <script src="js/popper.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/owl.carousel.min.js"></script>
+  <script src="js/jquery.magnific-popup.min.js"></script>
+  <script src="js/aos.js"></script>
+
+  <script src="js/main.js"></script>
+
+</body>
+
+</html>
